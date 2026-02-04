@@ -36,9 +36,10 @@ Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
 # Addon-Dateien
 # -------------------
 Core.lua
-modules/Profile.lua
-modules\Config.lua
-modules\Minimap.lua
-modules\Datatext.lua
-modules\UnitFrames.lua
-modules\Chat.lua
+Module/Profile.lua
+Module/Config.lua
+Module/Minimap.lua
+Module/Datatext.lua
+Module/UnitFrames.lua
+Module/Chat.lua
+
