@@ -1,0 +1,39 @@
+tag v1.1.1
+addc63a1e30f459e021a5e6f38bbb94561293472
+Tekkub Stoutwrithe <tekkub@gmail.com>
+2008-05-13 11:51:23 -0600
+
+Minor version 1
+
+
+--------------------
+
+Tekkub Stoutwrithe:
+	Add asserts to ensure our embedder has provided LibStub and CBH-1.0
+	Remove all the other crap, this lib isn't standalone
+	Remove unused file
+	Add two more callbacks, so we can listen to all changes to all DOs, and for changes to a specific key across all DOs
+	Compact down some code
+	Simplify new/register into one function
+	Why do we not fire callbacks for specific keys?
+	Clean up redundant code, see redundant
+	We're now LDB-1.1
+	Clean up Elky's retarded whitespace
+elkano:
+	LibDataBroker-1.0: setting attribute to its current value wont fire AttributeChanged anymore
+	git-svn-id: http://svn.wowace.com/wowace/branches/LibDataBroker-1.0/Elkano/LibDataBroker-1.0@72050 48e1f902-e210-0410-a839-a0138e9d5bd5
+	LibDataBroker-1.0: moved the test file in here
+	git-svn-id: http://svn.wowace.com/wowace/branches/LibDataBroker-1.0/Elkano/LibDataBroker-1.0@72047 48e1f902-e210-0410-a839-a0138e9d5bd5
+	LibDataBroker-1.0:
+	- readded LS and CBH
+	- pushed TOC
+	- changed directory structure for better embedding
+	- added Revision keyword to lua file
+	
+	git-svn-id: http://svn.wowace.com/wowace/branches/LibDataBroker-1.0/Elkano/LibDataBroker-1.0@72046 48e1f902-e210-0410-a839-a0138e9d5bd5
+ag:
+	LibDataBroker-1.0: remove libstub and CallbackHandler
+	git-svn-id: http://svn.wowace.com/wowace/branches/LibDataBroker-1.0/Elkano/LibDataBroker-1.0@69523 48e1f902-e210-0410-a839-a0138e9d5bd5
+elkano:
+	LibDataBroker-1.0: initial push to SVN
+	git-svn-id: http://svn.wowace.com/wowace/branches/LibDataBroker-1.0/Elkano/LibDataBroker-1.0@63372 48e1f902-e210-0410-a839-a0138e9d5bd5

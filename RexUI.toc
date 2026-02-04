@@ -1,0 +1,44 @@
+## Interface: 120000
+## Title: RexUI
+## Notes: Custom UI
+## Author: Daniel Nagel
+## Version: 0.1
+## SavedVariables: RexUIDB
+## IconTexture: Interface\AddOns\RexUI\media\RexUILogo.tga
+
+# -------------------
+# Libs (Reihenfolge!)
+# -------------------
+Libs\Ace3\LibStub\LibStub.lua
+Libs\Ace3\CallbackHandler-1.0\CallbackHandler-1.0.lua
+
+Libs\Ace3\AceAddon-3.0\AceAddon-3.0.lua
+Libs\Ace3\AceEvent-3.0\AceEvent-3.0.lua
+Libs\Ace3\AceConsole-3.0\AceConsole-3.0.lua
+
+Libs\Ace3\AceDB-3.0\AceDB-3.0.lua
+Libs\Ace3\AceDBOptions-3.0\AceDBOptions-3.0.lua
+
+# AceGUI MUSS als XML geladen werden, sonst fehlen Widgets -> AceConfigDialog crasht!
+Libs\Ace3\AceGUI-3.0\AceGUI-3.0.xml
+
+Libs\Ace3\AceSerializer-3.0\AceSerializer-3.0.lua
+Libs\Ace3\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua
+Libs\Ace3\AceConfigCmd-3.0\AceConfigCmd-3.0.lua
+Libs\Ace3\AceConfigDialog-3.0\AceConfigDialog-3.0.lua
+Libs\Ace3\AceConfig-3.0\AceConfig-3.0.lua
+
+Libs\LibSharedMedia-3.0\LibSharedMedia-3.0.lua
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+
+# -------------------
+# Addon-Dateien
+# -------------------
+Core.lua
+modules/Profile.lua
+modules\Config.lua
+modules\Minimap.lua
+modules\Datatext.lua
+modules\UnitFrames.lua
+modules\Chat.lua
